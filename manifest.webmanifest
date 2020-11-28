@@ -1,0 +1,15 @@
+{
+  "short_name": "Finite-state Machine",
+  "name": "FINITE-STATE MACHINE",
+  "start_url": "/",
+  "backgorund_color": "#FFF",
+  "display": "standalone",
+  "theme_color": "#FFF",
+  "icons": [
+    {
+      "src": "/img/icon.svg",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
