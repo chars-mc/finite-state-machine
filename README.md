@@ -38,3 +38,4 @@ Evaluate expressions that match the regular expression **`VAR=(VAR/D) (OP (VAR/D
 - [Vue router](https://router.vuejs.org/)
 - Font: [Saira](https://fonts.google.com/specimen/Saira)
 - Icons: [Boxicons](https://boxicons.com/)
+- [Normalize](https://necolas.github.io/normalize.css/)
