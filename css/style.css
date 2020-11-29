@@ -1,4 +1,58 @@
+:root {
+  --padding: 10px;
+
+  /* font size */
+  --title: 1.7rem;
+  --subtitle: 1.5rem;
+  --text: 1.2rem;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Saira";
+}
+
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* text style */
+.title {
+  font-size: var(--title);
+}
+.subtitle {
+  font-size: var(--subtitle);
+}
+.text {
+  font-size: var(--text);
+}
+
+/* app-bar */
+.app-bar {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.308);
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.app-bar .container {
+  display: flex;
+}
+
+.app-bar__title,
+.app-bar__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-bar__logo {
+  height: 2.5rem;
+  margin-right: 5px;
+}
+
+.app-bar__buttons {
+  margin-left: auto;
 }
