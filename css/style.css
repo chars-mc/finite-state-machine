@@ -104,3 +104,17 @@
   padding: calc(var(--padding) / 2);
   outline: none;
 }
+
+/* about */
+.about {
+  margin-bottom: var(--padding);
+}
+
+.about__states {
+  position: relative;
+  z-index: -1;
+}
+
+img {
+  max-width: 80%;
+}

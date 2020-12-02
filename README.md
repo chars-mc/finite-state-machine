@@ -1,6 +1,6 @@
 # Finite-state Machine
 
-Evaluate expressions that match the regular expression **`VAR=(VAR/D) (OP (VAR/D))`**
+Evaluate expressions that match the regular expression **`VAR=(VAR/D) (OP (VAR/D))*`**
 
 ## Alphabet
 
