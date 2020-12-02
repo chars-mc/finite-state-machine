@@ -2,7 +2,10 @@ new Vue({
   el: "#app",
   template: `
     <div class="app">
-      <h1>Hello world</h1>
+      <app-bar/>
+
+      <router-view></router-view>
     </div>
-  `
+  `,
+  router: router
 });
